@@ -16,7 +16,7 @@ public class LargestSum {
     public int bigSum(List<Integer> nums){
         // utilize built-in .sort() method from Collections super-parent class to sort 'nums' in "natural" order -- default: ASC
         Collections.sort(nums);
-        // Collections.reverse(nums);   // enable this if want in DESC order
+        // Collections.reverse(nums);   // ------ enable this if want in DESC order
         // retrieve .size() of 'nums' List
         int numsSize = nums.size();
         // .get() last element & 2nd to last element in now sorted 'nums' List in ascending fashion --- aka these are the 2 largest Integers
